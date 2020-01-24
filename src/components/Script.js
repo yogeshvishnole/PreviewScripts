@@ -60,14 +60,14 @@ const Script = ({ formValue }) => {
         onClick={async () => {
           await axios({
             method: "post",
-            url: "http://localhost:8000/",
+            url: "https://infinite-spire-44417.herokuapp.com/",
             data: {
               template
             }
           });
         }}
         className="btn"
-        href="http://localhost:8000"
+        href="https://infinite-spire-44417.herokuapp.com/"
         target="_blank"
         rel="noopener noreferrer"
       >
